@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/timway/type9)
+
 # Type9
 
 A tool that is meant to easily generate password hashes in the format used by Cisco networking devices for validating passwords of users local to the device. A common use for this tool is to generate hashes for a known password when creating device templates.
