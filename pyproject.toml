@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Type9"
+version = "0.0.2"
+dependencies = ["scrypt"]
+description = "Simple cli tool to generate password hashes that are compatible with Cisco's Type 9."
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [{ name = "Tim Way", email = "Tim.Way@cdw.com"}]
+requires-python = ">=3.9"
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: System :: Networking",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-mock"]
+
+[project.scripts]
+type9 = "type9:main"
+
+[project.urls]
+Homepage = "https://github.com/timway/type9"
