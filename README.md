@@ -33,10 +33,10 @@ echo "username type9 privilege 15 ${HASH}"
 ```
 
 ## Install into the local Python environment
-The tool can be installed via setuptools into the user, global or virtual environment using the following command:
+The tool can be installed via pip into the user, global or virtual environment using the following command:
 
 ```bash
-python setup.py install
+python -m pip install .
 ```
 
 The parameters are the same as the example in a container above.
