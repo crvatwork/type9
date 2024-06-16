@@ -33,6 +33,7 @@ echo "username type9 privilege 15 ${HASH}"
 ```
 
 ## Install into the local Python environment
+
 The tool can be installed via pip into the user, global or virtual environment using the following command:
 
 ```bash
